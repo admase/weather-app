@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="api"></div>
+
+        <section class="top-banner">
+            <div class="container">
+                <br/><br/><br/>
+                <h1 class="masthead">Today's Forecast</h1>
+                <form action="">
+                    <input type="text" placeholder="Search for a city..." class="form-control" autofocus>
+                    <button type="submit">Submit</button>
+                    <span class="msg"></span>
+                </form>
+            </div>
+        </section>
+
+        <section class="code-section">
+            <div class="container">
+                <ul class="cities"></ul>
+            </div>
+        </section>
+
+        <div class="img-caption">
+            <small>Image by Mohamed Hassan from Pixabay</small>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="space-between">
+            <span class="text-left">Copyright &copy;2023 &middot; <a href="index.html" target="_parent" rel="noopener noreferrer">Weather App</a></span>
+            <span class="text-right">All Rights Reserved.</span>
+        </div>
+    </div>
+
+    <script src="./main.js" defer></script>
+</body>
+
+</html>
